@@ -5,7 +5,7 @@ import java.util.Stack;
 public class BinaryTreeTraverse {
 	
 	/**
-	 * Ç°Ğò±éÀú
+	 * å‰åºéå†
 	 */
 	public static void preOrder(BinaryTreeNode root) {
 		if (null == root) {
@@ -24,24 +24,24 @@ public class BinaryTreeTraverse {
 	{
 	    if(root == null)
 	    {
-	        System.out.println("¿ÕÊ÷");
+	        System.out.println("ç©ºæ ‘");
 	    }
 
 	    Stack<BinaryTreeNode> nstack = new Stack<BinaryTreeNode>();
 	    BinaryTreeNode node = root;
 
-	    //  ¿ªÊ¼±éÀúÕû¸ö¶ş²æÊ÷
+	    //  å¼€å§‹éå†æ•´ä¸ªäºŒå‰æ ‘
 	    while(node != null || nstack.empty() != true)
 	    {
-	        // ²»Êä³öµ±Ç°¸ù½Úµã£¬µ«ÊÇµİ¹éÖ±ÖÁµ±Ç°¸ù½ÚµãnodeµÄ×î×ó¶Ë
+	        // ä¸è¾“å‡ºå½“å‰æ ¹èŠ‚ç‚¹ï¼Œä½†æ˜¯é€’å½’ç›´è‡³å½“å‰æ ¹èŠ‚ç‚¹nodeçš„æœ€å·¦ç«¯
 	        while(node != null)
 	        {
 	            nstack.push(node);
 	            node = node.leftNode;
 	        }
 
-	        //  ´ËÊ±Õ»¶¥µÄÔªËØÊÇµ±Ç°×î×óÔªËØ
-	        //  ËüÓ¦¸Ã±»Êä³ö
+	        //  æ­¤æ—¶æ ˆé¡¶çš„å…ƒç´ æ˜¯å½“å‰æœ€å·¦å…ƒç´ 
+	        //  å®ƒåº”è¯¥è¢«è¾“å‡º
 	        if(nstack.empty( ) != true)
 	        {
 

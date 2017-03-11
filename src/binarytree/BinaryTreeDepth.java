@@ -3,7 +3,7 @@ package binarytree;
 public class BinaryTreeDepth {
 	
 	/**
-	 * ÊýÉî¶È
+	 * æ•°æ·±åº¦
 	 */
 	public static int depth (BinaryTreeNode node) {
 		if (node == null) {

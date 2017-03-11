@@ -5,7 +5,7 @@ import java.util.Stack;
 public class StackTest {
 
 	public static void main(String[] args) {
-		Stack<Integer> stack = new Stack<Integer>(); //jdk×Ô´øStack
+		Stack<Integer> stack = new Stack<Integer>(); //jdkè‡ªå¸¦Stack
 		
 		tackTest(stack);
 	}

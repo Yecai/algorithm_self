@@ -3,7 +3,7 @@ package binarytree;
 public class BinaryTreeNodeCount {
 
 	/**
-	 * 节点数量
+	 * 鑺傜偣鏁伴噺
 	 */
 	public static int count(BinaryTreeNode node) {
 		if (node == null) {

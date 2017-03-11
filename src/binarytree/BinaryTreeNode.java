@@ -9,8 +9,8 @@ public class BinaryTreeNode {
 	
 	public static void main(String[] args) {
 		BinaryTreeNode node = init();
-//		System.out.println("½Úµã¸öÊý£º" + BinaryTreeNodeCount.count(node));
-//		System.out.println("Ê÷Éî¶È£º" + BinaryTreeDepth.depth(node));
+//		System.out.println("èŠ‚ç‚¹ä¸ªæ•°ï¼š" + BinaryTreeNodeCount.count(node));
+//		System.out.println("æ ‘æ·±åº¦ï¼š" + BinaryTreeDepth.depth(node));
 		BinaryTreeTraverse.InOrderDev(node);
 	}
 

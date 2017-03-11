@@ -1,16 +1,16 @@
 package stack;
 
 /**
- * Êı×éÊµÏÖÕ»
+ * æ•°ç»„å®ç°æ ˆ
  * @author panhuaxiong
  */
 public class StackByArray<E> {
 	
-	/** Êı×é **/
+	/** æ•°ç»„ **/
 	private Object arr;
-	/** ÈİÁ¿ **/
+	/** å®¹é‡ **/
 	private int default_capacity = 4;
-	/** Í·Ö¸Õë **/
+	/** å¤´æŒ‡é’ˆ **/
 	private int head = -1;
 	
 	
