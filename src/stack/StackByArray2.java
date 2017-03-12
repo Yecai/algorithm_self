@@ -37,11 +37,12 @@ public class StackByArray2<E> {
 		return (E) item;
 	}
 
-	public Object peek() {
+	@SuppressWarnings("unchecked")
+	public E peek() {
 		if (empty()) {
 			throw new EmptyStackException();
 		}
-		return elementData[elementCount - 1];
+		return (E) elementData[elementCount - 1];
 	}
 
 	public boolean empty() {
