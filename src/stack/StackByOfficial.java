@@ -1,6 +1,6 @@
 package stack;
 
-public class StackByArray2<E> {
+public class StackByOfficial<E> {
 	
 	/** 数组 **/
 	private Object[] elementData;
@@ -10,11 +10,11 @@ public class StackByArray2<E> {
 	
 	private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
 	
-	public StackByArray2() {
+	public StackByOfficial() {
 		this(10);
 	}
 	
-	public StackByArray2(int initialCapacity) {
+	public StackByOfficial(int initialCapacity) {
 		if (initialCapacity < 0) {
 			throw new IllegalArgumentException("Illegal capacity:" +
 												initialCapacity);

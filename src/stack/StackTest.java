@@ -4,12 +4,12 @@ public class StackTest {
 
 	public static void main(String[] args) {
 //		Stack<Integer> stack = new Stack<Integer>(); //jdk自带Stack
-		StackByArray2<Integer> stack = new StackByArray2<Integer>();
+		StackByOfficial<Integer> stack = new StackByOfficial<Integer>();
 		tackTest(stack);
 	}
 
 //	private static void tackTest(Stack<Integer> stack) {
-	private static void tackTest(StackByArray2<Integer> stack) {
+	private static void tackTest(StackByOfficial<Integer> stack) {
 		System.out.println("push:1 10 2 8 2 20 19 22 100 103 109");
 		stack.push(1);
 		stack.push(10);

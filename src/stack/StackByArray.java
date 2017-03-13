@@ -4,7 +4,7 @@ package stack;
  * 数组实现栈
  * @author panhuaxiong
  */
-public class StackByArray1<E> {
+public class StackByArray<E> {
 	
 	/** 数组 **/
 	private Object[] arr;
@@ -14,7 +14,7 @@ public class StackByArray1<E> {
 	private int num = 0;
 	
 	
-	public StackByArray1() {
+	public StackByArray() {
 		arr = new Object[capacity];
 	}
 	
