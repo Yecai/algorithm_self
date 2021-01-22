@@ -9,8 +9,8 @@ public class BinaryTreeNode {
 	
 	public static void main(String[] args) {
 		BinaryTreeNode node = init();
-//		System.out.println("节点个数：" + BinaryTreeNodeCount.count(node));
-//		System.out.println("树深度：" + BinaryTreeDepth.depth(node));
+		System.out.println("节点个数：" + BinaryTreeNodeCount.count(node));
+		System.out.println("树深度：" + BinaryTreeDepth.depth(node));
 		BinaryTreeTraverse.InOrderDev(node);
 	}
 
