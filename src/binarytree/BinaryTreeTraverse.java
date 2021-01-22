@@ -17,7 +17,7 @@ public class BinaryTreeTraverse {
 	}
 
 	private static void visit(BinaryTreeNode root) {
-		System.out.println(root.value);
+		System.out.println("前序遍历:" + root.value);
 	}
 
 	public static void InOrderDev(BinaryTreeNode root)

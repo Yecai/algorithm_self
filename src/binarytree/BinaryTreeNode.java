@@ -12,10 +12,18 @@ public class BinaryTreeNode {
 		System.out.println("节点个数：" + BinaryTreeNodeCount.count(node));
 		System.out.println("树深度：" + BinaryTreeDepth.depth(node));
 		BinaryTreeTraverse.InOrderDev(node);
+		BinaryTreeTraverse.preOrder(node);
 	}
 
 
 	private static BinaryTreeNode init() {
+		/**
+		  10
+		/    \
+       8       12
+     /  \     /  \
+    6    7  13    14
+		 */
 		BinaryTreeNode root = new BinaryTreeNode();
 		root.setValue(10);
 		BinaryTreeNode left1 = new BinaryTreeNode();
